@@ -23,21 +23,21 @@ export default function Education({ education }) {
           </Zoom>
         </div>
         <div className="w-full">
-          <div className="flex items-center">
+          <div className="flex ">
             <div className="overflow-hidden w-full">
-              <div className="flex flex-col md:flex-row justify-between md:items-center">
+              <div className="flex flex-col ">
                 <div>
                   <h2 className="font-medium text-lg ">
                     <Fade left>{educationTitle}</Fade>
                   </h2>
                   <div className="text-gray-500 dark:text-gray-200 text-sm">
                     <Fade left delay={150}>
-                      <div className="flex items-start sm:items-center flex-col sm:flex-row sm:gap-2">
-                        <span className="inline-flex items-center capitalize gap-1">
-                          <i className="bx bxs-graduation"></i> {position}
+                      <div className="flex items-start flex-col gap-1 ">
+                        <span className="inline-flex items-center  capitalize gap-1">
+                          <i className="fas fa-graduation-cap text-xs"></i> {position}
                         </span>
-                        <span className="inline-flex items-center capitalize gap-1">
-                          <i className="fa-solid fa-location-dot text-xs"></i>{" "}
+                        <span className="inline-flex items-center mt-5 capitalize gap-2">
+                          <i className="fa-solid  fa-location-dot text-xs"></i>{" "}
                           {location}
                         </span>
                       </div>
@@ -46,18 +46,15 @@ export default function Education({ education }) {
                 </div>
 
                 <div className="text-gray-500 dark:text-gray-200 text-xs mt-1 md:mt-0">
-                  <Fade
-                    left={width < 768 ? true : false}
-                    right={width > 768 ? true : false}
-                    duration={1300}
+                  <Fade left
+
                   >
                     <div className=" flex items-center ">
-                      <div className="mr-1">
+                      <div className="mr-2 mt-1">
                         <i className="fa-regular fa-calendar-days text-xs"></i>
                       </div>
-                      <div>{startDate}</div>
-                      <div className="mx-1"> - </div>
-                      <div>{endDate}</div>
+                      <div className="pt-1 text-sm">{startDate} - {endDate}</div>
+
                     </div>
                   </Fade>
                 </div>

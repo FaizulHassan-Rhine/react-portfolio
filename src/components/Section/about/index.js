@@ -35,10 +35,10 @@ export default function About() {
               </p>
               <div className="mt-5">
                 <Fade up>
-                  <Info name="email" details="tanvirshaharia120@gmail.com" />
-                  <Info name="phone" details="+8801644566945" />
+                  <Info name="email" details="faizulhassan.rien@gmail.com" />
+                  <Info name="phone" details="+8801845845789" />
                   <Info name="address" details="Dhaka, Bangladesh" />
-                  <Info name="status" details="Available" />
+                  <Info name="status" details="Not Available" />
                 </Fade>
               </div>
             </Fade>

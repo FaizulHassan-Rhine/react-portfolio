@@ -6,27 +6,27 @@
   },
   {
     "id": 2,
-    "name": "java",
-    "category": "Java"
+    "name": "html & CSS",
+    "category": "HTML & CSS"
   },
   {
     "id": 3,
-    "name": "xml",
-    "category": "Xml"
+    "name": "javascript",
+    "category": "JavaScript"
   },
   {
     "id": 4,
-    "name": "firebase",
-    "category": "Firebase"
+    "name": "react",
+    "category": "React"
   },
   {
     "id": 5,
-    "name": "room database",
-    "category": "Room Database"
+    "name": "next",
+    "category": "Next"
   },
   {
     "id": 6,
-    "name": "api",
-    "category": "Api"
+    "name": "mern",
+    "category": "MERN"
   }
 ]

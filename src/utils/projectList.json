@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Easy chat",
-    "category": ["Java", "Firebase", "Xml"],
+    "category": ["JavaScript", "Firebase", "Xml"],
     "placeholderSrc": "https://i.ibb.co/kSdSpcX/poject1.jpg",
     "imageSrc": "https://i.ibb.co/wN3J6P8/poject1.jpg",
     "source": "https://github.com/tanvir-shaharia/EasyChat"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "My note",
-    "category": ["Java", "Xml", "Room Database"],
+    "category": ["Java", "React", "Room Database"],
     "placeholderSrc": "https://i.ibb.co/pQ14Ms3/poject2.jpg",
     "imageSrc": "https://i.ibb.co/fYZBW6G/poject2.jpg",
     "source": "https://github.com/tanvir-shaharia/mynote"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "contact",
-    "category": ["Java", "Xml", "Firebase", "Room Database"],
+    "category": ["Java", "Xml", "React", "Room Database"],
     "placeholderSrc": "https://i.ibb.co/CJRKgTC/poject3.jpg",
     "imageSrc": "https://i.ibb.co/8gbrQzW/poject3.jpg",
     "source": "https://github.com/tanvir-shaharia/Contract"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Car rent",
-    "category": ["Java", "Xml", "Firebase"],
+    "category": ["Java", "Xml", "Next"],
     "placeholderSrc": "https://i.ibb.co/wzS1tvF/poject4.jpg",
     "imageSrc": "https://i.ibb.co/K53NVmq/poject4.jpg",
     "source": "https://github.com/tanvir-shaharia/CarsRents"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Todo app",
-    "category": ["Java", "Xml", "Room Database"],
+    "category": ["Java", "Next", "MERN"],
     "placeholderSrc": "https://i.ibb.co/G9fFPPN/poject5.jpg",
     "imageSrc": "https://i.ibb.co/Z2PLkdz/poject5.jpg",
     "source": "https://github.com/tanvir-shaharia/Todo"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Rpi",
-    "category": ["Java", "Xml", "Firebase", "Room Database", "Api"],
+    "category": ["Java", "Xml", "HTML & CSS", "Room Database", "Api"],
     "placeholderSrc": "https://i.ibb.co/2gnKjD2/poject6.jpg",
     "imageSrc": "https://i.ibb.co/ZHLhsfj/poject6.jpg",
     "source": "https://github.com/tanvir-shaharia/RPI"
