@@ -1,0 +1,26 @@
+[
+  {
+    "name": "xml",
+    "progress": 80
+  },
+  {
+    "name": "java",
+    "progress": 85
+  },
+  {
+    "name": "Adobe Illustrator",
+    "progress": 85
+  },
+  {
+    "name": "Adobe Photoshop",
+    "progress": 85
+  },
+  {
+    "name": "Python",
+    "progress": 55
+  },
+  {
+    "name": "c++",
+    "progress": 45
+  }
+]

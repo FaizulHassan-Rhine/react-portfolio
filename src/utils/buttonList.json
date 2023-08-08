@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "all",
+    "category": "all"
+  },
+  {
+    "id": 2,
+    "name": "java",
+    "category": "Java"
+  },
+  {
+    "id": 3,
+    "name": "xml",
+    "category": "Xml"
+  },
+  {
+    "id": 4,
+    "name": "firebase",
+    "category": "Firebase"
+  },
+  {
+    "id": 5,
+    "name": "room database",
+    "category": "Room Database"
+  },
+  {
+    "id": 6,
+    "name": "api",
+    "category": "Api"
+  }
+]
