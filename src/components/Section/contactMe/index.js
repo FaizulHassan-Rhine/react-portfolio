@@ -18,10 +18,10 @@ export default function ContactMe() {
 
     await emailjs
       .sendForm(
-        "service_2x0ooox", //SERVICE ID
-        "template_qaeo3sv", //TEMPLATE ID
+        "service_1twbom5", //SERVICE ID
+        "template_2qybnzd", //TEMPLATE ID
         form.current,
-        "bgpIbO0GlRBgWuCzu" // PUBLIC KEY
+        "QbICOdI5qUmwf7ZN_" // PUBLIC KEY
       )
       .then(
         (result) => {
@@ -79,12 +79,12 @@ export default function ContactMe() {
                   link="https://wa.me/+8801644566945/"
                   delay={150}
                 />
-                <SocialContact
+                {/* <SocialContact
                   icon="fa-brands fa-facebook-messenger"
                   name="messenger"
                   link="https://www.facebook.com/messages/t/100076360894745"
                   delay={200}
-                />
+                /> */}
                 <SocialContact
                   icon="fab fa-linkedin-in"
                   name="linkedin"
@@ -97,12 +97,12 @@ export default function ContactMe() {
                   link="https://twitter.com/tanvir_shaharia"
                   delay={300}
                 />
-                <SocialContact
+                {/* <SocialContact
                   icon="fab fa-instagram"
                   name="instagram"
                   link="https://www.instagram.com/tanvir_shaharia/"
                   delay={350}
-                />
+                /> */}
               </ul>
             </div>
           </div>

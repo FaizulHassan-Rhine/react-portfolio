@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact - Tanvir Shaharia</title>
+        <title>Contact - Faizul Hassan Rhine</title>
       </Helmet>
 
       <PageLayout>

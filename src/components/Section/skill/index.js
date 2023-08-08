@@ -8,9 +8,9 @@ export default function Skill() {
     <>
       <div className=" containerCustom gap">
         <Title title="skill" />
-        <div className="flex flex-wrap">
+        <div className="flex flex-col items-center">
           {Skills.map((skill, idx) => {
-            const {name, progress} = skill || {};
+            const { name, progress } = skill || {};
             return (
               <ProgressBar
                 name={name}

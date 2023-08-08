@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>About - Tanvir Shaharia</title>
+        <title>About - Faizul Hassan Rhine</title>
       </Helmet>
 
       <PageLayout>

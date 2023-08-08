@@ -14,9 +14,8 @@ export default function Home() {
 
   return (
     <div
-      className={`lightBg dark:darkBg relative ${
-        height > 694 && width > 992 && "h-screen"
-      }`}
+      className={`lightBg dark:darkBg relative ${height > 694 && width > 992 && "h-screen"
+        }`}
     >
       <div className="w-full h-full background">
         {" "}
@@ -26,19 +25,19 @@ export default function Home() {
               className={`flex items-center justify-center flex-col overflow-hidden h-full w-full relative z-20 pt-20 md:pb-28 pb-32`}
             >
               <div className="h-28 w-28 md:h-36 md:w-36 overflow-hidden rounded-full bg-white mb-4">
-                <img src={avatar} alt="avatar" />
+                {/* <img src={avatar} alt="avatar" /> */}
               </div>
               <h2 className="text-3xl md:text-4xl font-medium pb-4 pt-2 ">
                 <Fade up cascade>
-                  MD Tanvir Shaharia
+                  Faizul Hassan Rhine
                 </Fade>
               </h2>{" "}
               <Typed
                 strings={[
-                  "Android App Developer",
-                  "Graphics Designer",
-                  "Logo Designer",
-                  "UI/UX Designer",
+                  "Web Developer",
+                  "Front-End Developer",
+                  "React Developer",
+
                 ]}
                 typeSpeed={90}
                 backSpeed={80}

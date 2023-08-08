@@ -7,7 +7,7 @@ export default function Resume() {
   return (
     <>
       <Helmet>
-        <title>Resume - Tanvir Shaharia</title>
+        <title>Resume - Faizul Hassan Rhine</title>
       </Helmet>
       <PageLayout>
         <ResumeSec />

@@ -22,7 +22,7 @@ export default function About() {
         <div className="md:grid items-center md:gap-3 lg:gap-4 grid-cols-9 md:col-start-9">
           <div className="md:col-span-5 lg:col-span-5 lg:pr-28">
             <Fade up cascade>
-              <h3>Hello! I Am Tanvir Shaharia.</h3>{" "}
+              <h3>Hello! I Am Faizul Hassan.</h3>{" "}
               <p className="text-sm">
                 I am a professional App Developer,Programmer & Graphics designer
                 . I complete my projects with customer satisfaction. I can
@@ -45,7 +45,7 @@ export default function About() {
           </div>
           <Zoom>
             <div className="h-auto w-full mt-5 md:mt-0 overflow-hidden rounded-xl md:col-span-4 lg:col-span-4 aspect-[4/4]">
-              <img src={picture} alt="" className="w-full" />
+              {/* <img src={picture} alt="" className="w-full" /> */}
             </div>{" "}
           </Zoom>
         </div>
