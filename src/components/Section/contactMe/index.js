@@ -122,7 +122,7 @@ export default function ContactMe() {
                 <ContactInp
                   placeholder="Your Name"
                   type="text"
-                  name="from_name"
+                  name="name"
                   required
                 />
                 <ContactInp
