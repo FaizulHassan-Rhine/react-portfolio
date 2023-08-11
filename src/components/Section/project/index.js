@@ -30,7 +30,7 @@ export default function Project() {
             <Link to="/projects">
               <button
                 type="button"
-                className=" bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 hover:bg-gradient-to-bl font-medium rounded-3xl text-sm px-5 md:px-9 md:hover:px-16 py-3.5 text-center mr-2 mb-2 text-white transition-all flex items-center justify-center"
+                className=" bg-gradient-to-r  from-cyan-400  via-teal-400 to-green-400 hover:bg-gradient-to-bl font-medium rounded-3xl text-sm px-5 md:px-9 md:hover:px-16 py-3.5 text-center mr-2 mb-2 text-white transition-all flex items-center justify-center"
               >
                 Show more
                 <i className="fa-solid fa-arrow-right pl-1"></i>

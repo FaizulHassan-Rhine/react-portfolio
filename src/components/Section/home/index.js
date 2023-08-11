@@ -44,7 +44,7 @@ export default function Home() {
                 loop
                 className="text-md md:text-xl text-gray-600 dark:text-gray-300"
               />
-              <div className="icons mt-4 text-gray-600 dark:text-white/60 flex justify-center flex-wrap">
+              {/* <div className="icons mt-4 text-gray-600 dark:text-white/60 flex justify-center flex-wrap">
                 {socialBtnList.map((btn, idx) => {
                   const { link, hover, icon } = btn || {};
                   return (
@@ -58,8 +58,8 @@ export default function Home() {
                     </>
                   );
                 })}
-              </div>
-              <div className="flex mt-5">
+              </div> */}
+              <div className="flex mt-20 gap-4">
                 <Link to="/contact">
                   <Button name="Get in touch" />
                 </Link>

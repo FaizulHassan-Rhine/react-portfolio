@@ -161,7 +161,7 @@ export default function ContactMe() {
                 <div className="text-center mt-1">
                   <button
                     type="submit"
-                    className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 hover:bg-gradient-to-bl font-medium rounded-3xl text-sm px-7 md:hover:px-12 py-3.5 text-center text-white transition-all disabled:opacity-75 disabled:cursor-progress"
+                    className="bg-gradient-to-r  from-cyan-400  via-teal-400 to-green-400 hover:bg-gradient-to-bl font-medium rounded-3xl text-sm px-7 md:hover:px-12 py-3.5 text-center text-white transition-all disabled:opacity-75 disabled:cursor-progress"
                     name="message"
                     disabled={loading}
                   >
@@ -188,7 +188,7 @@ export default function ContactMe() {
                 </p>
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 hover:bg-gradient-to-bl font-medium rounded-3xl text-sm px-7 md:hover:px-12 py-3.5 text-center text-white transition-all"
+                  className="bg-gradient-to-r  from-cyan-400  via-teal-400 to-green-400 hover:bg-gradient-to-bl font-medium rounded-3xl text-sm px-7 md:hover:px-12 py-3.5 text-center text-white transition-all"
                   name="message"
                   onClick={() => setShowContactForm(true)}
                 >
