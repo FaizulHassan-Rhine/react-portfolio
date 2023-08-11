@@ -7,33 +7,21 @@ import Info from "./info";
 export default function About() {
   return (
     <div className=" flex items-center flex-wrap relative">
-      {/* <div className="w-full lg:w-1/2 ">
-        <Zoom>
-          <img src={picture} alt="" className="w-full" />
-        </Zoom>
-      </div> */}
+
       <div className="containerCustom gap overflow-hidden">
-        {/* <h4 className="  mt-7 md:mt-0 text-3xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
-          About Me
-        </h4> */}
 
         <Title title="about me" />
 
         <div className="md:grid items-center md:gap-3 lg:gap-4 grid-cols-9 md:col-start-9">
-          <div className="md:col-span-5 lg:col-span-5 lg:pr-28">
+          <div className="md:col-span-5 lg:col-span-5 lg:pr-24">
             <Fade up cascade>
-              <h3>Hello! I Am Faizul Hassan.</h3>{" "}
-              <p className="text-sm">
-                I am a professional App Developer,Programmer & Graphics designer
-                . I complete my projects with customer satisfaction. I can
-                develop slick Android Applications and will provide you with the
-                source code. Also, the application can be graphically enhanced
-                if you desire. Contact me for further discussion. Anything from
-                offline applications to database-connected online applications,
-                from simple to advanced applications, there is no space for
-                saying "IT CAN'T BE".
+              <h3>Hello! I Am Faizul Hassan Rhine.</h3>{" "}
+              <p className="text-sm ">
+                A passionate and dedicated Front-end Web Developer based in (Dhaka,Bangladesh). I hold a B.Sc. in Engineering (Computer Science and Engineering) from Bangladesh University of Business and Technology, reflecting my commitment to education and technical expertise. With a recent completion of a comprehensive Web Development course, I've honed my skills and achieved proficiency in various aspects of front-end development.
+                <br></br>
+                My journey into the world of technology began with a strong foundation in HTML5, CSS3, and JavaScript. As I embarked on my educational journey, I further expanded my skill set to include technologies like React.js,Next.js,Redux,TailwindCSS,Node.js etc. This blend of technologies enables me to craft interactive and visually appealing web experiences that engage users and enhance their online interactions.
               </p>
-              <div className="mt-5">
+              <div className="mt-5 text-sm">
                 <Fade up>
                   <Info name="email" details="faizulhassan.rien@gmail.com" />
                   <Info name="phone" details="+8801845845789" />
@@ -43,13 +31,13 @@ export default function About() {
               </div>
             </Fade>
           </div>
-          <Zoom>
+          {/* <Zoom>
             <div className="h-auto w-full mt-5 md:mt-0 overflow-hidden rounded-xl md:col-span-4 lg:col-span-4 aspect-[4/4]">
-              {/* <img src={picture} alt="" className="w-full" /> */}
-            </div>{" "}
-          </Zoom>
+              <img src={picture} alt="" className="w-full" />
+            </div>
+          </Zoom> */}
         </div>
       </div>
-    </div>
+    </div >
   );
 }
