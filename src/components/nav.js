@@ -40,7 +40,7 @@ export default function Navbar({ theme, toggleDarkMode }) {
                   <img src={avatar} alt="avatar" />
                 </div> */}
                 <div className="ml-3">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#18c8fd] to-purple-600 font-extrabold text-2xl">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-400 to-green-400 font-extrabold text-2xl">
                     Faizul Hassan Rhine
                   </span>
                 </div>
@@ -53,7 +53,7 @@ export default function Navbar({ theme, toggleDarkMode }) {
                 {menuList.map((menu, idx) => (
                   <Link to={menu?.link} className="capitalize" key={idx}>
                     <li
-                      className={`px-3 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#18c8fd] to-purple-600 font-medium ${path === menu?.link || path === menu?.link + "/"
+                      className={`px-3 hover:text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-400 to-green-400 font-medium ${path === menu?.link || path === menu?.link + "/"
                         ? "text-transparent font-semibold"
                         : ""
                         }`}
