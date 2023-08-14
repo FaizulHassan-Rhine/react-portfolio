@@ -70,13 +70,13 @@ export default function ContactMe() {
                 <SocialContact
                   icon="fa-solid fa-envelope"
                   name="email"
-                  link="mailto:tanvirshaharia120@gmail.com"
+                  link="mailto:faizulhassan.rien@gmail.com"
                   delay={100}
                 />
                 <SocialContact
                   icon="fa-brands fa-whatsapp"
                   name="whatsapp"
-                  link="https://wa.me/+8801644566945/"
+                  link="https://wa.me/+8801845845789/"
                   delay={150}
                 />
                 {/* <SocialContact
@@ -88,13 +88,13 @@ export default function ContactMe() {
                 <SocialContact
                   icon="fab fa-linkedin-in"
                   name="linkedin"
-                  link="https://www.linkedin.com/in/tanvir-shaharia/"
+                  link="https://www.linkedin.com/in/faizul-hassan/"
                   delay={250}
                 />
                 <SocialContact
                   icon="fab fa-twitter"
                   name="twitter"
-                  link="https://twitter.com/tanvir_shaharia"
+                  // link="https://twitter.com/tanvir_shaharia"
                   delay={300}
                 />
                 {/* <SocialContact

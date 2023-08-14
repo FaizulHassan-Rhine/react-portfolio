@@ -1,13 +1,8 @@
 [
-  {
-    "id": 1,
-    "link": " https://www.facebook.com/profile.php?id=100076360894745",
-    "hover": "facebook",
-    "icon": "fab fa-facebook-f"
-  },
+
   {
     "id": 2,
-    "link": "https://www.linkedin.com/in/tanvir-shaharia/",
+    "link": "https://www.linkedin.com/in/faizul-hassan/",
     "hover": "linkedin",
     "icon": "fab fa-linkedin-in"
   },
@@ -19,7 +14,7 @@
   },
   {
     "id": 5,
-    "link": "https://github.com/tanvir-shaharia",
+    "link": "https://github.com/FaizulHassan-Rhine",
     "hover": "github",
     "icon": "fab fa-github"
   }

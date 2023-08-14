@@ -14,9 +14,8 @@ export default function Home() {
 
   return (
     <div
-      className={`lightBg dark:darkBg relative ${
-        height > 694 && width > 992 && "h-screen"
-      }`}
+      className={`lightBg dark:darkBg relative ${height > 694 && width > 992 && "h-screen"
+        }`}
     >
       <div className="w-full h-full background">
         {" "}
@@ -65,7 +64,7 @@ export default function Home() {
                 </Link>
 
                 <a
-                  href="https://drive.google.com/uc?export=download&id=163Mwq2VYS5nIdIf2cTcZZTYSzzBEd6Qf"
+                  href="https://drive.google.com/file/d/1yBVB-WKRsLpZfyHns1PQALFbpCTblW7V/view?usp=sharing"
                   download
                 >
                   <Button name="Download CV" />

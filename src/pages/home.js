@@ -20,8 +20,8 @@ export default function Home() {
       <TopSec />
       <About />
       <Skill />
-      <Project />
       <Resume />
+      <Project />
       {/* <Blog /> */}
       {/* <Testimonial /> */}
       <ContactMe />
