@@ -36,28 +36,30 @@ export default function Education({ education }) {
                         <span className="inline-flex items-center  capitalize gap-1">
                           <i className="fas fa-graduation-cap text-xs"></i> {position}
                         </span>
-                        <span className="inline-flex items-center mt-5 capitalize gap-2">
-                          <i className="fa-solid  fa-location-dot text-xs"></i>{" "}
+                        <div className=" flex items-center ">
+                          <div className="mr-2 mt-1">
+                            <i className="fa-regular fa-calendar-days text-xs"></i>
+                          </div>
+                          <div className="pt-1 text-sm">{startDate} - {endDate}</div>
+
+                        </div>
+                        <span className="inline-flex items-center mt-1 capitalize gap-2">
+                          <i className="fa-solid  fa-location-dot text-xs"></i>
                           {location}
                         </span>
+
                       </div>
                     </Fade>
                   </div>
                 </div>
 
-                <div className="text-gray-500 dark:text-gray-200 text-xs mt-1 md:mt-0">
+                {/* <div className="text-gray-500 dark:text-gray-200 text-xs mt-1 md:mt-0">
                   <Fade left
 
                   >
-                    <div className=" flex items-center ">
-                      <div className="mr-2 mt-1">
-                        <i className="fa-regular fa-calendar-days text-xs"></i>
-                      </div>
-                      <div className="pt-1 text-sm">{startDate} - {endDate}</div>
 
-                    </div>
                   </Fade>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

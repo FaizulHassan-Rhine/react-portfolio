@@ -23,7 +23,7 @@ export default function ProgressBar({ name, progress, color, ...rest }) {
               className={`bg-${color || "blue-700"
                 } bg-cyan-600 h-full rounded-full`}
               style={{ width: progress + "%" }}
-            ></div>{" "}
+            ></div>
           </Fade>
         </div>
       </div>

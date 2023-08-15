@@ -91,12 +91,12 @@ export default function ContactMe() {
                   link="https://www.linkedin.com/in/faizul-hassan/"
                   delay={250}
                 />
-                <SocialContact
+                {/* <SocialContact
                   icon="fab fa-twitter"
                   name="twitter"
-                  // link="https://twitter.com/tanvir_shaharia"
+                  link="https://twitter.com/tanvir_shaharia"
                   delay={300}
-                />
+                /> */}
                 {/* <SocialContact
                   icon="fab fa-instagram"
                   name="instagram"
@@ -149,7 +149,7 @@ export default function ContactMe() {
               <div className="w-full  my-4 flex-1">
                 <Fade up delay={240}>
                   <textarea
-                    className="w-full  rounded-md shadow-md pr-5 border-1 border-gray-200 text-black focus:border-transparent focus:outline-transparent focus:ring-0 min-h-[200px] md:min-h-full lg:min-h-full"
+                    className="w-full rounded-md shadow-md pr-5 border-1 border-gray-200 text-black focus:border-transparent focus:outline-transparent focus:ring-0 min-h-[200px] md:min-h-full lg:min-h-[140px]"
                     placeholder="Your Message"
                     name="message"
                     required

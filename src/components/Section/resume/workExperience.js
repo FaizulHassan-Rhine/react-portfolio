@@ -78,25 +78,30 @@ export default function WorkExperience({ work }) {
               <p className="mt-3 text-sm text-gray-500 dark:text-gray-400">
                 {description}
               </p>
-              {certificates &&
-                certificates.map((certificate, idx) => {
-                  const { image, title } = certificate || {};
-                  return (
-                    <div
-                      key={idx}
-                      className="rounded-xl cursor-pointer flex items-center"
-                      onClick={handleOpen}
-                    >
-                      <img
-                        src={image}
-                        alt={title}
-                        className="w-28 rounded-md overflow-hidden"
-                      />
-                      <div className="ml-2 text-gray-400"> {title}</div>
-                    </div>
-                  );
-                })}
+
             </Fade>
+            <Fade left delay={150}>
+              <p className="mt-3 text-base">
+                Job Responsibility
+              </p>
+            </Fade>
+            <Fade up delay={150}>
+              <div className="mt-3 text-sm text-gray-500 dark:text-gray-400">
+                <ul>
+                  <li><i class="fa-solid mr-2 fa-arrows-to-dot"></i>Maintain and improve website</li>
+                  <li><i class="fa-solid mr-2 fa-arrows-to-dot"></i>Transform Web designs into front-end code with HTML, CSS, and
+                    JavaScript</li>
+                  <li><i class="fa-solid mr-2 fa-arrows-to-dot"></i>Write high-quality, scalable, and reusable code</li>
+                  <li><i class="fa-solid mr-2 fa-arrows-to-dot"></i>Design mobile-based features</li>
+                  <li><i class="fa-solid mr-2 fa-arrows-to-dot"></i>Collaborate with back-end developers and web designers to improve
+                    usability</li>
+                  <li> <i class="fa-solid mr-2 fa-arrows-to-dot"></i>Debug errors, troubleshoot issues, and perform routine performance
+                    optimizations</li>
+                </ul>
+              </div>
+
+            </Fade>
+
           </div>
         </div>
       </div>
